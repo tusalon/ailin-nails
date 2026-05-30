@@ -1,6 +1,6 @@
 // sw.js - Service Worker para Ailin Nails
 
-const CACHE_NAME = 'ailin-nails-v29';
+const CACHE_NAME = 'ailin-nails-v47';
 const urlsToCache = [
   '/ailin-nails/',
   '/ailin-nails/index.html',
@@ -17,7 +17,14 @@ const urlsToCache = [
   '/ailin-nails/icons/icon-152x152.png',
   '/ailin-nails/icons/icon-192x192.png',
   '/ailin-nails/icons/icon-384x384.png',
-  '/ailin-nails/icons/icon-512x512.png'
+  '/ailin-nails/icons/icon-512x512.png',
+  '/ailin-nails/vendor/react.production.min.js',
+  '/ailin-nails/vendor/react-dom.production.min.js',
+  '/ailin-nails/vendor/babel.min.js',
+  '/ailin-nails/vendor/bcrypt.min.js',
+  '/ailin-nails/vendor/tailwind-browser.js',
+  '/ailin-nails/vendor/lucide/lucide.css',
+  '/ailin-nails/vendor/lucide/lucide.woff2'
 ];
 
 // ============================================
