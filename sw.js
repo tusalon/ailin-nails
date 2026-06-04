@@ -1,6 +1,6 @@
 // sw.js - Service Worker para Ailin Nails
 
-const CACHE_NAME = 'ailin-nails-v49';
+const CACHE_NAME = 'ailin-nails-v50';
 const urlsToCache = [
   '/ailin-nails/',
   '/ailin-nails/index.html',
